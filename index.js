@@ -18,7 +18,7 @@ var image2 = document.querySelectorAll("img")[1].setAttribute("src",randomImageS
 
 if(randomNumber1 > randomNumber2)
 {
-  document.querySelector("h1").innerHTML = " ✔ " + player1 + " Wins";
+  document.querySelector("h1").innerHTML = " ✔ Player1 Wins";
 }
 else if (randomNumber1 == randomNumber2)
 {
@@ -26,5 +26,5 @@ else if (randomNumber1 == randomNumber2)
 }
 else
 {
-  document.querySelector("h1").innerHTML = " ✔ " + player2 + " Wins";
+  document.querySelector("h1").innerHTML = " ✔ Player2 Wins";
 }
